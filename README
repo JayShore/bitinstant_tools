@@ -1,1 +1,12 @@
-lol a test
+/* feed the function: 
+api method(ex GetQuote), pay_method(ex 
+mtgoxcoupon), amount(ex 150), dest_exchange(ex cryptoxchange) 
+dest_account(ex //test@test.com), order_id, quote_id (ex 
+xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx), and payment_params. 
+
+Note that you only need to supply the needed parameters for each function. 
+Function returns an array containing returned parameter titles as keys(ex 
+AmountPaidByClientUSD) and contents of the parameter as the value. 
+
+Example: bitinstant_req('GetQuote', 'mtgoxcoupon', 150, 'tradehill', 
+'test@test.com') */
